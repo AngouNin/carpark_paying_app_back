@@ -1,4 +1,5 @@
 const paymentLogModel = require('../models/paymentLog');
+
 const paymentLog = async (req, res) => {
 
     const { status, parkName, licensePlateNumber, amount, receiptEmail, createDate } = req.body;
